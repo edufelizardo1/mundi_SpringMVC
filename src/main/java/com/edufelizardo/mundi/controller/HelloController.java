@@ -14,7 +14,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(HttpServletRequest httpServletRequest) {
-        httpServletRequest.setAttribute("nome", "Mundo");
+        httpServletRequest.setAttribute("nome", "Mundo!");
         return "hello";
     }
 }
