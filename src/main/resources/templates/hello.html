@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-    Oi!!!<span >João</span>
+Oi!!!<span th:text="${nome}">João</span>
 </body>
 </html>
